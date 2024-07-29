@@ -104,3 +104,166 @@ header a{
   width: 300px;
   font-size: 20px;
 }
+
+/* Card */
+
+.advantages h3{
+    align-items: center;
+    font-size: 24px;
+    padding: 20px;
+    color: white;
+    font-weight: 400;
+}
+
+.advantages__card {
+    background-color: #4B8621;
+    text-align: center;
+    width: 300px;
+    border-radius: 20px;
+}
+
+.advantages .row{
+  gap: 20px;
+}
+
+.advantages__card img{
+  width: 300px;
+  height: 200px;
+  object-fit: cover;
+} 
+
+.advantages h2{
+  font-size: 36px;
+  margin-bottom: 40px;
+}
+
+.advantages{
+  margin-top: 80px;
+}
+
+/* process */
+
+.process .grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+  }
+  
+ .process .div1 { grid-area: 1 / 1 / 2 / 2; }
+ .process .div2 { grid-area: 1 / 2 / 2 / 4; }
+ .process .div3 { grid-area: 2 / 1 / 3 / 3; }
+ .process .div4 { grid-area: 2 / 3 / 3 / 4; }
+
+ .process  .grid img{
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+ }
+
+ .process__item{
+  position: relative;
+ }
+
+ .process__item h3{
+  position: absolute;
+  bottom: 20px;
+  font-size: 18px;
+  font-weight: 400;
+  color: white;
+  background-color: #4B8621;
+  width: 280px;
+  height: 30px;
+  text-align: center;
+  line-height: 30px;
+  border-radius: 30px;
+  left: calc(50% - 140px);
+ }
+ .process h2{
+  font-size: 36px;
+  margin-bottom: 40px;
+ }
+
+ .process{
+  margin-top: 80px;
+ }
+ /* prices */
+
+ .prices {
+  margin-top: 80px;
+ }
+
+ .prices h2{
+  text-align: center;
+  font-size: 36px;
+ }
+
+ .prices table{
+  margin: 40px auto;
+  max-width: 1130px;
+  width: 100%;
+  font-size: 24px;
+ }
+
+ .prices button{
+  margin: 0 auto;
+  display: block;
+ }
+.prices td{
+  background: #F2F2F2;
+  text-align: center;
+  padding: 5px 0;
+  border: 5px solid white;
+}
+.prices tr td:first-child{
+  color: #686868;
+  background: none;
+  text-align: left;
+}
+/* contact */
+
+.contact__box {
+  background: #4B8621;
+}
+
+.contact__info{
+  padding: 65px 50px;
+}
+
+.contact h2{
+  font-size: 28px;
+  align-items: center;
+  padding: 30px ;
+  margin-bottom: 40px;
+ 
+}
+
+input{
+  border-radius: 20px;
+  width: 360px;
+  height: 45px;
+}
+
+.contact button{
+  border-radius: 20px;
+  background-color :rgba(104, 242, 5, 1);
+  width: 180px;
+  height: 45px;
+  font-size: 24px;
+}
+
+.contact__info-link{
+  padding: 50px ;
+
+}
+
+.contact__info-social{
+  padding: 50px ;
+
+}
+
+.contact__map, iframe{
+  width: 640px;
+  height: 585px;
+}
