@@ -20,6 +20,8 @@
   padding: 10px;
 }
 
+
+
 .row{
   display: flex;
 }
@@ -40,9 +42,11 @@ header{
   padding-top: 13px;
 }
 
-header .row{
+header .row,
+footer .row{
   align-items: center;
   gap: 30px;
+  justify-content: space-between;
 }
 
 header a{
@@ -223,6 +227,10 @@ header a{
 }
 /* contact */
 
+.contact{
+  margin-top: 80px;
+}
+
 .contact__box {
   background: #4B8621;
 }
@@ -233,34 +241,60 @@ header a{
 
 .contact h2{
   font-size: 28px;
-  align-items: center;
-  padding: 30px ;
+  margin: 0 auto;
+  text-align: center;
   margin-bottom: 40px;
- 
+  color: white;
+  max-width: 500px;
 }
 
 input{
-  border-radius: 20px;
+  border-radius: 20px 0 0 20px;
   width: 360px;
   height: 45px;
+  border: none;
+  padding: 0 15px;
+  font-size: 18px;
+}
+
+.contact form{
+  display: flex;
+  align-items: center;
 }
 
 .contact button{
-  border-radius: 20px;
+  border-radius: 0 20px 20px 0;
   background-color :rgba(104, 242, 5, 1);
   width: 180px;
   height: 45px;
   font-size: 24px;
+  border: none;
+  cursor: pointer;
 }
 
 .contact__info-link{
-  padding: 50px ;
+  margin-top: 70px ;
 
 }
 
-.contact__info-social{
-  padding: 50px ;
+.contact__info-link a {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    font-size: 22px;
+    text-decoration: none;
+    color: white;
+}
 
+.contact__info-social img {
+  width: 42px;
+  height: 42px;
+}
+
+.contact__info-social{
+  margin-top: 50px;
+  display: flex;
+  gap: 20px;
 }
 
 .contact__map, iframe{
