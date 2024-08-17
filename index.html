@@ -24,7 +24,7 @@
 
                     <div class="header__buttons row">
                         <a href="tel:+380934638024"><img src="./img/icon/fon.svg" alt="fon"></a>
-                        <button class="btn">Замовити машинку</button>
+                        <button class="btn" id="open-modal">Замовити машинку</button>
                     </div>
                 </div>
                 <div class="header__burger">
@@ -45,7 +45,7 @@
                         <h1>Car Kids</h1>
                         <p class="hero__content-subtitle">машинки на прокат №1 у Почаєві</p>
                         <p class="hero__content-text">Зроби цей день неймовірним для свого малюка!</p>
-                        <button class="btn">Замовити машинку</button>
+                        <button class="btn" id="open-modal">Замовити машинку</button>
                     </div>
                 </div>
             </div>
@@ -170,7 +170,7 @@
                         <p>40 км / год</p>
                     </div>
                 </div>
-                <button class="btn">Замовити машинку</button>
+                <button class="btn" id="open-modal">Замовити машинку</button>
             </div>
         </section>
         <section class="contact" id="contact">
@@ -179,7 +179,7 @@
                     <div class="contact__info">
                         <h2>Якщо залишились питання, залиш номер і ми зателефонуємо</h2>
                         <form>
-                            <input type="text">
+                            <input type="text" name="phone">
                             <button>Надіслати</button>
                         </form>
                         <div class="contact__info-link">
@@ -205,8 +205,8 @@
         <div class="modal__window">
             <h2>Залиш заявку для <br> безкоштовної консультації</h2>
             <form> 
-                <input type="text" placeholder="Ваше ім'я">
-                <input type="tel" placeholder="Ваш номер телефону">
+                <input type="text" placeholder="Ваше ім'я" name="user">
+                <input type="tel" placeholder="Ваш номер телефону" name="phone">
                 <button class="btn">Залишити заявку</button>
             </form>
             <button class="close">&#10006;</button>
